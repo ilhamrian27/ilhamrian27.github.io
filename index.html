@@ -1,11 +1,10 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="id">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portofolio Saya</title>
   <style>
-
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -126,6 +125,17 @@
       margin-top: 5px;
       color: #555;
     }
+
+    /* Instagram Feed */
+    .insta-container {
+      text-align: center;
+    }
+    iframe.lightwidget-widget {
+      width: 100%;
+      border: 0;
+      overflow: hidden;
+      height: 600px; /* bisa diatur */
+    }
   </style>
 </head>
 <body>
@@ -135,22 +145,6 @@
       <h1>👋 Halo, Saya Ilham</h1>
       <p>Fullstack Web Developer Jr Medium</p>
     </header>
-
-
-    <section>
-      <h2>💼 Pengalaman Kerja</h2>
-      <div class="experience-item">
-        <h3>PT Trijaya Digital Grup</h3>
-        <span>Fullstack Web Developer</span>
-        <p>Bertanggung jawab dalam maintenance dan pengembangan fitur baru pada <b>website payment gateway Tripay</b> serta <b>e-commerce p-store.net</b>.</p>
-      </div>
-      <div class="experience-item">
-        <h3>Tupai Tech</h3>
-        <span>UI Designer (3 bulan)</span>
-        <p>Mendesain antarmuka aplikasi berbasis web dan mobile dengan fokus pada <b>user experience</b> yang lebih modern dan responsif.</p>
-      </div>
-    </section>
-
 
     <section>
       <h2>🚀 Project</h2>
@@ -175,11 +169,9 @@
           <h3>Tripay Payment Gateway</h3>
           <p>Implementasi sistem pembayaran Tripay dengan Laravel.</p>
         </div>
-
       </div>
       <p>Selengkapnya bisa dilihat pada <a href="https://github.com/ilhamrian27" target="_blank">GitHub</a></p>
     </section>
-
 
     <section>
       <h2>🛠️ Tech Stack</h2>
@@ -199,6 +191,31 @@
       </div>
     </section>
 
+    <section>
+      <h2>💼 Pengalaman Kerja</h2>
+      <div class="experience-item">
+        <h3>PT Trijaya Digital Grup</h3>
+        <span>Fullstack Web Developer</span>
+        <p>Bertanggung jawab dalam maintenance dan pengembangan fitur baru pada <b>website payment gateway Tripay</b> serta <b>e-commerce p-store.net</b>.</p>
+      </div>
+      <div class="experience-item">
+        <h3>Tupai Tech</h3>
+        <span>UI Designer (3 bulan)</span>
+        <p>Mendesain antarmuka aplikasi berbasis web dan mobile dengan fokus pada <b>user experience</b> yang modern dan responsif.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>📸 Instagram Feed</h2>
+      <div class="insta-container">
+        <!-- LightWidget WIDGET -->
+        <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+        <iframe src="//lightwidget.com/widgets/0c21cbf071fe575f80646d9e5a223217.html" 
+                scrolling="no" 
+                allowtransparency="true" 
+                class="lightwidget-widget"></iframe>
+      </div>
+    </section>
 
     <section class="contact">
       <h2>📬 Kontak</h2>
